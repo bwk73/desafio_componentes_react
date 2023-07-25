@@ -1,0 +1,18 @@
+header {
+    padding: 20px 0;
+    background-color: var(--dsct-color-bg-secundary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--dsct-color-font-primary);
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(min-width: 1200px) {
+    header h1 {
+        font-size: 24px;}
+}
